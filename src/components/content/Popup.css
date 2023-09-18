@@ -11,7 +11,6 @@
 }
 .popup_wrapper {
     background-color: #000;
-    position: fixed;
     overflow: auto;
     width: 600px;
 }
@@ -20,13 +19,15 @@
     text-align: right;
     font-size: 20px;
     font-weight: bold;
-    margin: 5px;
-    position: absolute;
-    right: 0;
+    margin: 0 5px;
+    position: relative;
+    
 }
 .popup_header span {
     cursor: pointer;
     color: #333;
+    position: absolute;
+    right: 0;
 }
 .popup_wrapper img {
     width: 100%;
