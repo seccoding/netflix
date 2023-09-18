@@ -1,0 +1,23 @@
+#layout_header {
+    display: flex;
+    margin-bottom: 10px;
+    height: 40px;
+    align-items: center;
+    color: #FFF;
+}
+
+#layout_header .header_title {
+    color: #f13030;
+    font-weight: bold;
+    padding-right: 20px;
+    font-size: 30px;
+}
+
+.header_item {
+    margin-right: 20px;
+}
+
+.align_right {
+    position: absolute;
+    right: 0;
+}
